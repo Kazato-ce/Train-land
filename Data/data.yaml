@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Lane']
+
+roboflow:
+  workspace: 54-nguyen-doan-thanh-phong_10a1
+  project: ucr_lane
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/54-nguyen-doan-thanh-phong_10a1/ucr_lane/dataset
